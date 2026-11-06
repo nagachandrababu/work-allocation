@@ -1,0 +1,31 @@
+name: work_allocation_app
+description: Work Allocation Mobile Application built with Flutter, Provider, and Clean Architecture.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  provider: ^6.1.5
+  get_it: ^9.2.1
+  dio: ^5.10.0
+  hive: ^2.2.3
+  hive_flutter: ^1.1.0
+  equatable: ^3.0.0
+  json_annotation: ^4.12.0
+  permission_handler: ^12.0.1
+  intl: ^0.20.3
+  logger: ^2.8.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  build_runner: ^2.4.6
+  json_serializable: ^6.7.1
+  mockito: ^5.4.2
+
+flutter:
+  uses-material-design: true
